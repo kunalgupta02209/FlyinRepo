@@ -7,6 +7,10 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.dell.flyinbuds.MainActivity">
 
+    <RelativeLayout
+        android:fitsSystemWindows="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,6 +25,7 @@
             app:layout_collapseMode="pin"/>
 
     </android.support.design.widget.AppBarLayout>
+    </RelativeLayout>
    <LinearLayout
        android:id="@+id/mainParent"
        android:layout_marginTop="?android:attr/actionBarSize"
