@@ -10,10 +10,13 @@
     android:foreground="?android:attr/selectableItemBackground"
     android:layout_marginLeft="8dp"
     android:layout_marginRight="8dp"
+    android:background="#ffffff"
     android:layout_marginTop="5dp"
     android:layout_marginBottom="5dp">
 
+
     <TextView
+        android:background="#ffffff"
         android:id="@+id/listitem_name"
         android:layout_width="match_parent"
         android:layout_height="?attr/listPreferredItemHeight"

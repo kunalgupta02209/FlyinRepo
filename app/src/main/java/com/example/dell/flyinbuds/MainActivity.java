@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity
         //ft.add(R.id.AddHolderThree,add3,"three");
       // ft.add(R.id.content_main,cf,"collapse");
        CoordinatorFragment fr = new CoordinatorFragment();
-        ft.add(R.id.parent,fr,"zero");
+        ft.add(R.id.mainParent,fr,"zero");
         ft.commit();
 
        /* FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab2);
